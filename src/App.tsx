@@ -1,5 +1,6 @@
 import { Footer } from "@/components/Footer"
 import { Navbar } from "@/components/Navbar"
+import { ScrollToTop } from "@/components/ScrollToTop"
 import { Education } from "@/components/sections/Education"
 import { HeroSection } from "@/components/sections/HeroSection"
 import { Projects } from "@/components/sections/Projects"
@@ -16,6 +17,7 @@ export function App() {
         <Education />
       </main>
       <Footer />
+      <ScrollToTop />
     </>
   )
 }

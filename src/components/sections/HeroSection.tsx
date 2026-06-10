@@ -1,4 +1,5 @@
 import {
+  IconArrowDown,
   IconBrandGithub,
   IconBrandLinkedin,
   IconMail,
@@ -92,9 +93,14 @@ export function HeroSection() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <Button asChild>
-            <a href="#projects">View Projects</a>
-          </Button>
+          <a
+            href="#projects"
+            className="group relative inline-flex items-center gap-3 overflow-hidden rounded-xl bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all duration-300 hover:shadow-xl hover:shadow-primary/35 hover:-translate-y-0.5 active:scale-95 active:shadow-md"
+          >
+            <span className="relative z-10">View My Projects</span>
+            <IconArrowDown className="relative z-10 size-4 transition-transform duration-300 group-hover:translate-x-1" />
+            <span className="absolute inset-0 -translate-x-full bg-white/10 transition-transform duration-300 group-hover:translate-x-0" />
+          </a>
         </div>
       </div>
     </section>
