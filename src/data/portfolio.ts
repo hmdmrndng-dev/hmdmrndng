@@ -14,6 +14,8 @@ export const techStack = [
     items: [
       { name: "JavaScript", icon: "js" },
       { name: "TypeScript", icon: "typescript" },
+      { name: "Python", icon: "python" },
+      { name: "Java", icon: "java" },
     ],
   },
   {
@@ -33,6 +35,7 @@ export const techStack = [
       { name: "Prisma", icon: "prisma" },
       { name: "PostgreSQL", icon: "postgresql" },
       { name: "MySQL", icon: "mysql" },
+      { name: "MongoDB", icon: "mongodb" },
     ],
   },
   {
@@ -40,6 +43,7 @@ export const techStack = [
     items: [
       { name: "Supabase", icon: "supabase" },
       { name: "Firebase", icon: "firebase" },
+      { name: "Neon", icon: "neon" },
     ],
   },
   {
@@ -47,6 +51,10 @@ export const techStack = [
     items: [
       { name: "Vercel", icon: "vercel" },
       { name: "GitHub", icon: "github" },
+      { name: "GitLab", icon: "gitlab" },
+      { name: "Docker", icon: "docker" },
+      { name: "Git", icon: "git" },
+      { name: "VS Code", icon: "vscode" },
     ],
   },
 ]
@@ -86,13 +94,25 @@ export const education = [
     institution: `Eulogio "Amang" Rodriguez Institute of Science and Technology - Manila Campus`,
     degree: "Master of Science in Mathematics",
     period: "October 2025 – Present",
-    details: "Linear Algebra | Abstract Algebra | Theory of Numbers",
+    units: 9,
   },
   {
     institution: `Cavite State University – Carmona Campus`,
     degree: "Bachelor of Science in Computer Science",
     period: "August 2019 - April 2024",
-    details: `Vice President's Lister (First Semester of A.Y. 2020-2021) |
-       Vice President's Lister (First Semester of A.Y. 2021-2022)`,
+    details: [
+      "Vice President's Lister (First Semester of A.Y. 2020-2021)",
+      "Vice President's Lister (First Semester of A.Y. 2021-2022)",
+    ],
+  },
+  {
+    institution: `Lake Shore Educational Institution`,
+    degree: "Senior High School - Computer Hardware Servicing (TVL-ICT-CHS)",
+    period: "June 2017 - April 2019",
+  },
+  {
+    institution: `Lake Shore Educational Institution`,
+    degree: "Junior High School",
+    period: "June 2013 - April 2017",
   },
 ]
