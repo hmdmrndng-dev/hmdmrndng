@@ -7,6 +7,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { personal, techStack } from "@/data/portfolio"
 import StackIcon from "tech-stack-icons"
+import avatarImg from "/albertwhisker.jpeg"
 
 export function HeroSection() {
   return (
@@ -17,7 +18,7 @@ export function HeroSection() {
           <div className="flex flex-col md:w-1/3 items-center">
             <div className="mb-5 flex size-40 items-center justify-center rounded-full bg-primary/10 ring-4 ring-primary/20">
               <img
-                src="src\assets\albertwhisker.jpeg"
+                src={avatarImg}
                 alt={personal.name}
                 className="h-40 w-40 rounded-full object-cover"
               />
