@@ -1,11 +1,13 @@
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react"
 
+import { useResolvedTheme } from "@/hooks/use-resolved-theme"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { projects } from "@/data/portfolio"
 import StackIcon from "tech-stack-icons"
 
 export function Projects() {
+  const resolvedTheme = useResolvedTheme()
   return (
     <section id="projects" className="bg-muted/30 px-6 py-24">
       <div className="mx-auto max-w-3xl">
@@ -27,6 +29,7 @@ export function Projects() {
                     <StackIcon
                       key={item.name}
                       name={item.icon}
+                      variant={resolvedTheme}
                       className="h-6"
                     />
                   ))}

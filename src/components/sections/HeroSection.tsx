@@ -5,12 +5,14 @@ import {
   IconMail,
 } from "@tabler/icons-react"
 
+import { useResolvedTheme } from "@/hooks/use-resolved-theme"
 import { Button } from "@/components/ui/button"
 import { personal, techStack } from "@/data/portfolio"
 import StackIcon from "tech-stack-icons"
 import avatarImg from "/albertwhisker.jpeg"
 
 export function HeroSection() {
+  const resolvedTheme = useResolvedTheme()
   return (
     <section id="about" className="bg-muted/30 px-6 py-24">
       <div className="mx-auto max-w-3xl">
@@ -82,6 +84,7 @@ export function HeroSection() {
                       <StackIcon
                         key={item.name}
                         name={item.icon}
+                        variant={resolvedTheme}
                         className="h-6"
                       />
                     ))}
