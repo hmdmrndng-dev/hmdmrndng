@@ -5,6 +5,7 @@ import { Education } from "@/components/sections/Education"
 import { HeroSection } from "@/components/sections/HeroSection"
 import { Projects } from "@/components/sections/Projects"
 import { WorkExperience } from "@/components/sections/WorkExperience"
+import { Analytics } from "@vercel/analytics/react"
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       </main>
       <Footer />
       <ScrollToTop />
+      <Analytics />
     </>
   )
 }
