@@ -17,7 +17,7 @@ export function Projects() {
             <Card key={project.name} className="flex flex-col">
               <CardHeader>
                 <p className="font-semibold">{project.name}</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground text-justify">
                   {project.description}
                 </p>
               </CardHeader>

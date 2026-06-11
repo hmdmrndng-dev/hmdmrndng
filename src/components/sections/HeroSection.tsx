@@ -63,10 +63,10 @@ export function HeroSection() {
 
           {/* Right � Tech Stack (2/3) */}
           <div id="tech-stack" className="flex-1">
-            <h2 className="mb-2 text-3xl font-bold tracking-tight text-justify">
+            <h2 className="mb-2 text-3xl font-bold tracking-tight">
               Hi, I'm {personal.name}.
             </h2>
-            <p className="mb-8 text-sm leading-relaxed text-muted-foreground">
+            <p className="mb-8 text-sm leading-relaxed text-muted-foreground text-justify">
               {personal.bio}
             </p>
             <p className="mb-8 font-bold">Technologies I work with.</p>
