@@ -95,6 +95,7 @@ export const education = [
     degree: "Master of Science in Mathematics",
     period: "October 2025 – Present",
     units: 9,
+    bg: "bg-[url('assets/education/earist.jpg')]",
   },
   {
     institution: `Cavite State University – Carmona Campus`,
@@ -104,15 +105,18 @@ export const education = [
       "Vice President's Lister (First Semester of A.Y. 2020-2021)",
       "Vice President's Lister (First Semester of A.Y. 2021-2022)",
     ],
+    bg: "bg-[url('assets/education/cvsu.jpg')]",
   },
   {
     institution: `Lake Shore Educational Institution`,
     degree: "Senior High School - Computer Hardware Servicing (TVL-ICT-CHS)",
     period: "June 2017 - April 2019",
+    bg: "bg-[url('assets/education/lakeshore.jpg')]",
   },
   {
     institution: `Lake Shore Educational Institution`,
     degree: "Junior High School",
     period: "June 2013 - April 2017",
+    bg: "bg-[url('assets/education/lakeshore.jpg')]",
   },
 ]

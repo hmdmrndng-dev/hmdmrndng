@@ -56,7 +56,7 @@ export function Navbar() {
           href="#about"
           className="text-sm font-semibold text-foreground transition-colors hover:text-primary"
         >
-          {personal.name}
+          MyPortfolio
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">
