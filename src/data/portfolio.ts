@@ -87,6 +87,20 @@ export const projects = [
     github: "https://github.com/hmdmrndng-dev/lsc-hris",
     live: "",
   },
+  {
+    name: "dmovies-sooty",
+    description:
+      "I built this project as a personal challenge to test and improve my skills in integrating and handling data from the TMDB API.",
+    items: [
+      { name: "Next.js", icon: "nextjs" },
+      { name: "TailwindCSS", icon: "tailwindcss" },
+      { name: "ShadCN UI", icon: "shadcn" },
+      { name: "Node.js", icon: "nodejs" },
+      { name: "Vercel", icon: "vercel" },
+    ],
+    github: "https://github.com/hmdmrndng-dev/dmovies",
+    live: "https://dmovies-sooty.vercel.app/",
+  },
 ]
 
 export const education = [
